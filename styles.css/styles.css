@@ -1,0 +1,123 @@
+main {
+    height: 100vh;
+}
+
+/*Dark side separator*/
+.dark-hr{
+    border: 2px solid beige;
+    width: 70%;
+}
+/*Light side separator*/
+.light-hr{
+    border: 2px solid rgb(212, 155, 85);
+    width: 30%;
+}
+
+/*Background darkside*/
+.dark-side{
+    background-color: rgb(58, 62, 71);
+    padding-left: 3em;
+    padding-right: 3em;
+}
+/*Photo container*/
+.photo-container{
+    max-width: 95%;
+    width: 12rem;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+/*Properties of profile photo*/
+.foto-perfil{
+    margin: auto;
+    border-radius: 50%;
+    margin: 1em auto;
+    padding: 1em;
+    border: 4px rgb(249, 249, 245) solid;   
+}
+
+/*Identify section*/
+.identify{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: inline;
+    align-self: center;
+}
+
+/*Name properties*/
+.name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: rgb(58, 62, 71);
+    align-items: center;
+    font-size: 4em;
+}
+
+/*Profession properties*/
+.profession{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Properties of navegation bar*/
+.nav-bar{
+    background-color: rgb(212, 155, 85);
+    width: 100%;
+    padding: 1rem .5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: beige;
+}
+
+/*Github text properties*/
+.referency{
+    text-decoration: none;
+    color: beige;
+}
+/*Subtitle properties*/
+.subtitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0.3em; /*Poner en el html las margenes*/
+    font-size: xx-large;
+}
+/*Dark text*/
+.dark-text{
+    color:  rgb(212, 155, 85);
+}
+
+/*Sub subtitle properties*/
+.sub-subtitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+/*Sub-subtitle color*/
+.dark-sub-subtitle{
+    color:  rgb(206, 168, 121);
+}
+
+/*Light subtitle*/
+.light-subtitle{
+    margin: auto 0;
+}
+/*Dark paragraph color text*/
+.dark-paragraph{
+    color: beige;
+}
+
+/*Color progress bar*/
+.progress-bar{
+    background-color:  rgb(212, 155, 85);
+}
+
+/*Container progress bar*/
+.progress{
+    margin-bottom: 1em;
+}
+
+.information-section{
+width: 90%;
+padding-left: 2.5em;
+padding-top: 0.5em;
+text-align: justify;
+}
